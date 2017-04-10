@@ -1,0 +1,87 @@
+/*#1 ff6f83
+#2 2adcdf
+#3 2fb2ba
+#4 fb4e6e
+*/
+.body, .main-menu {
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+.logo {
+	height: 80px;
+	vertical-align: top;
+}
+.logo-wrapper{
+	text-align: center;
+}
+@media print, screen and (min-width: 40em){ 
+	.logo {
+		height: 95px;
+	}
+
+	.logo-wrapper {
+		text-align: left;
+	}
+}
+.hero {
+	height: 400px;
+	background-image: url('../assets/teal-wood.jpeg');
+	background-size: cover;
+	padding: 30px;
+}
+.hero h1 {
+	font-family: 'Quattrocento', serif;
+	color: white;
+}
+.hero-overlay{
+	height: 100%;		
+}
+.main-menu a, .main-menu i {
+	color: #424242;
+	font-size: 20px;
+}
+ul.main-menu, .social{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.social{
+	font-size: 30px;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+@media print, screen and (min-width: 40em){ 
+	.social {
+		float: right;
+		text-align: left;
+		font-size: 26px;
+		padding-bottom: 0;
+	}
+}
+.social i{
+	padding: 0 10px;
+	color: #424242;
+}
+.brand{
+	font-family: 'Quattrocento Sans', sans-serif;
+	display: inline-block;
+	font-size: 24px;
+	padding: 10px;
+	text-align: center;
+}
+@media print, screen and (min-width: 64em){
+	.brand {
+		font-size: 30px;
+	}
+}
+.tagline{
+	font-family: 'handlee', sans-serif;
+	font-size: 18px;
+}
+@media print, screen and (min-width: 64em) {
+	.tagline {
+		font-size: 20px;
+	}
+}
+.brand > span {
+	display: block;
+}
